@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jdk
 WORKDIR /app
 
 # Copia tu jar al contenedor
-COPY representacionesdelsur-1.0.0-SNAPSHOT.jar .
+COPY miapp/representacionesdelsur-1.0.0-SNAPSHOT.jar .
 
 # Puerto expuesto por Render (Render asigna $PORT dinámicamente)
 ENV PORT 8080
